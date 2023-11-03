@@ -1,4 +1,4 @@
-resource "aws_instance" "magot" {
+resource "aws_instance" "sokpe_11" {
   ami           = var.ami
   instance_type = var.instance_type["production"]
   # aws_subnet =  var.aws_vpc.main.id
